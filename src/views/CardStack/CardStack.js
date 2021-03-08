@@ -41,7 +41,7 @@ const emptyFunction = () => {};
 const theme = {
   white: '#FFFFFF',
   lightGrey: '#B7B7B7',
-  primaryBlue: '#0074B4',
+  midnight: '#23233F',
 };
 
 type Props = {
@@ -239,7 +239,7 @@ class CardStack extends React.Component<Props, State> {
         <View
           style={{
             height: paddingTop,
-            backgroundColor: theme.primaryBlue,
+            backgroundColor: theme.midnight,
           }}
         />
         <View style={{ flexDirection: 'row', flex: 1 }}>
