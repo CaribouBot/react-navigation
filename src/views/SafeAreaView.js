@@ -26,7 +26,7 @@ const isIPhoneX = (() => {
   if (Platform.OS === 'web') return false;
 
   if (minor >= 50) {
-    return DeviceInfo.isIPhoneX_deprecated;
+    return DeviceInfo.isIPhoneX;
   }
 
   return (
